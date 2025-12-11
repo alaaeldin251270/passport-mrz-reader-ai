@@ -1,7 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { PassportData } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.REACT_APP_API_KEY });
+
 
 export const extractPassportData = async (base64Image: string): Promise<PassportData> => {
   // Remove header if present
