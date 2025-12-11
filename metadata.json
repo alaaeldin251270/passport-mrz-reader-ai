@@ -1,0 +1,7 @@
+{
+  "name": "Passport MRZ Reader AI",
+  "description": "قارئ جواز السفر الإلكتروني باستخدام الذكاء الاصطناعي لاستخراج وتنسيق بيانات MRZ بدقة عالية.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
